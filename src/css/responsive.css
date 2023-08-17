@@ -1,0 +1,120 @@
+@media (max-width:800px){
+    .secao-com-texto.onde-estamos p{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media (max-width:737px){
+       
+    .ladrilho  .grande, .ladrilho .medio{
+     width: 100%;
+    }
+    .ladrilho .pequeno, .ladrilho .pequeno-grao{
+     width: 50%;
+     
+    }
+    .contato{
+        background-image: none;
+        background-color:#D3AE71;
+        ;
+    }
+    .contato .texto{
+        position: relative;
+        left: 0;
+        top: 50%;
+        text-align: center;
+        transform: translateY(-50%);
+     }
+     .contato h2{
+        font-size: 45px;
+        margin-bottom: 51px;
+    }
+    .contato p{
+        font-size: 20px;
+    
+}
+   .rodape{
+    background-image: none;
+    background-color: #000000;
+    height: 693px;
+    display: block;
+    text-align: center;
+   }
+   .rodape .logo{
+    margin-bottom: 122px;
+   }
+   .rodape nav{
+    float: none;
+    text-align: center;
+   }
+   .rodape ul{
+    width: 100%;
+    display: block;
+   }
+   .rodape ul li{
+    display: block;
+    margin-bottom: 27px;
+   }
+   .rodape .redes-sociais{
+    margin-top: 112px;
+    margin-bottom: 28px;
+   }
+   .rodape .redes-sociais a{
+      padding: 7px;
+   }
+}
+
+@media (max-width:390px){
+    .cabecalho{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .cabecalho .logo{
+        display: block;
+        margin: 0 auto;
+    }
+    .cabecalho nav{
+        float: none;
+    }
+    .cabecalho ul li{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .cabecalho ul li a{
+        width: 100%;
+        display: block;
+    }
+    .painel h2{
+        font-size: 20px;
+    }
+    .secao-com-texto{
+        padding: 35px 25px;
+        
+    }
+    .secao-com-texto img{
+        width: 174px;
+        height: 174px;
+        margin-bottom: 46px;
+    }
+    .secao-com-texto h2{
+        font-size: 30px;
+        margin-bottom: 49px;
+    }
+    .secao-com-text .texto{
+       margin-bottom: 130px;
+       height: 100px;
+     
+    }
+    .secao-com-texto.onde-estamos p{
+        font-size: 15px;
+   
+    }
+    .ladrilho .pequeno, .ladrilho .pequeno-grao{
+        width: 100%;
+    }
+    
+    
+}
+}
